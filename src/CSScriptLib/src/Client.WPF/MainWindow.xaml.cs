@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Client.NET_6_WPF;
 
 namespace Aurora.Devices
 {
@@ -57,10 +58,17 @@ namespace Client.WPF
             InitializeComponent();
         }
 
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            base.OnKeyDown(e);
+            
+            new SecondWindow().Show();
+        }
+
         public void Test_Issue_316()
         {
-            string scriptAsmPath = CSScript.RoslynEvaluator.CompileAssemblyFromFile("rpi_script.cs", "rpi_script.cs.dll");
-            dynamic scriptObj = CSScript.RoslynEvaluator.LoadFile("rpi_script.cs");
+            dynamic script = CSScript.RoslynEvaluator.LoadFile("rpi_script.cs");
+            Console.Out.WriteLine(script);
         }
 
         public void Test_CodeDom()

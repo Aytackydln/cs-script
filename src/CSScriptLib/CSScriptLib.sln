@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSScriptLib.Client", "src\C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSScriptLib.Client461", "src\CSScriptLib.Client461\CSScriptLib.Client461.csproj", "{6010C75C-D3DC-426C-8622-D74A6B1581C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.NET-WPF", "src\Client.WPF\Client.NET-WPF.csproj", "{5C128674-FE3B-4C93-8047-D4B20E00C7F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{6010C75C-D3DC-426C-8622-D74A6B1581C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6010C75C-D3DC-426C-8622-D74A6B1581C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6010C75C-D3DC-426C-8622-D74A6B1581C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C128674-FE3B-4C93-8047-D4B20E00C7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C128674-FE3B-4C93-8047-D4B20E00C7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C128674-FE3B-4C93-8047-D4B20E00C7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C128674-FE3B-4C93-8047-D4B20E00C7F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
